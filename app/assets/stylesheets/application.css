@@ -1,0 +1,60 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+	  background-image: url("cat.jpg");
+
+}
+
+h2 {
+	margin-left: 200px;
+	margin-top: ;
+
+}
+
+ .home-page {
+   height: 94vh;
+   background-color: #75BD4B;
+ }
+
+ .jumbotron {
+  background-image: url("");
+  background-size: cover;
+}
+
+.form-group {
+margin-left: 200px;
+}
+
+.wrap-contact2 {
+    width: 790px;
+    background: #D3D3D3;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 72px 55px 90px 55px;
+}
+.container-contact2 {
+    width: 100%;
+    min-height: 120vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
